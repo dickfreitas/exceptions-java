@@ -35,10 +35,7 @@ public class Program {
             sc.close();
         } catch (DomainExceptions e) {
             System.out.println("Withdraw error: " + e.getMessage());
-        } finally {
-
         }
-        ;
 
 
 
